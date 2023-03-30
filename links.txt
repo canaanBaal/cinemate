@@ -1,0 +1,57 @@
+API Key (v3 auth)
+c3bd37d44e3983e848ab48cbab91470e
+
+api_key=c3bd37d44e3983e848ab48cbab91470e
+
+
+Base URL:
+https://api.themoviedb.org/3/
+
+Paths:
+movie/{movie.id}?
+movie/now_playing?
+movie/popular?
+movie/top_rated?
+movie/upcoming?
+search/movie?
+
+Example:
+https://api.themoviedb.org/3/search/movie?api_key=c3bd37d44e3983e848ab48cbab91470e&language=en-US&query=avatar&page=1
+
+
+//
+// For the first few
+BaseURL+Path+ApiKey
+
+// For the search, we also need query
+BaseURL+Path+ApiKey+&+query="textToSearch"
+
+//
+
+Individual:
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=c3bd37d44e3983e848ab48cbab91470e
+
+
+Now Playing:
+https://api.themoviedb.org/3/movie/now_playing?api_key=c3bd37d44e3983e848ab48cbab91470e
+
+
+Popular:
+https://api.themoviedb.org/3/movie/popular?api_key=c3bd37d44e3983e848ab48cbab91470e
+
+
+Top Rated:
+https://api.themoviedb.org/3/movie/top_rated?api_key=c3bd37d44e3983e848ab48cbab91470e
+
+
+Upcoming:
+https://api.themoviedb.org/3/movie/upcoming?api_key=c3bd37d44e3983e848ab48cbab91470e
+
+Search:
+https://api.themoviedb.org/3/search/movie?api_key=c3bd37d44e3983e848ab48cbab91470e&query={movie_name}
+
+
+
+
+
+
