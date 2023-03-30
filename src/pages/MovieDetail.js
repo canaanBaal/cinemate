@@ -16,7 +16,7 @@ const MovieDetail = () => {
       setMovie(json);
     }
     fetchMovie();
-  }, [])
+  }, [params.id])
 
   useTitle(movie.title)
   // useEffect(() => {
